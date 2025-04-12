@@ -120,7 +120,7 @@ install_solana() {
     fi
 
     info "Switching RPC endpoint to Eclipse..."
-    solana config set --url https://mainnetbeta-rpc.eclipse.xyz/ >/dev/null || {
+    solana config set --url https://eclipse.helius-rpc.com/ >/dev/null || {
         error "Failed to switch RPC endpoint. Please verify Solana CLI installation."
         exit 1
     }
