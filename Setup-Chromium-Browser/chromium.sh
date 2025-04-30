@@ -16,7 +16,7 @@ set -euo pipefail
 # ------------------------------
 # Constants & Configuration
 # ------------------------------
-CHROMIUM_IMAGE="lscr.io/linuxserver/chromium:version-114.0.5735.198"
+CHROMIUM_IMAGE="lscr.io/linuxserver/chromium:latest"
 WORKDIR="${HOME}/chromium"
 CONFIG_DIR="${WORKDIR}/config"
 
